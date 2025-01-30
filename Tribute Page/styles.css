@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+    font-family: monospace,sans-serif;
+  }
+  
+  #img-div{
+    background: white;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #heading{
+    text-align: center;
+    font-family: monospace, sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ffeefd;
+  }
+  
+  #img-caption{
+    text-align: center;
+    width: 100%;
+  }
+  
+  #tribute-info{
+    text-align: center;
+    width: 100%;
+  }
+  
+  #Timeline>h2{
+    text-align: center;
+  }
+  
+  div.container{
+    text-align: center;
+  }
+  
+  ul.UL{
+    display: inline-block;
+    text-align: left;
+  }

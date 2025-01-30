@@ -1,0 +1,78 @@
+*,::before,::after{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Raleway, serif;
+    color: Black;
+    background-color: pink;
+  }
+  
+  .nav-link{
+    font-family: Anton, sans-serif;
+    font-size: 20px;
+  }
+  a:hover{
+    background-color: white;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+  }
+  
+  h3{
+    font-family: 'Raleway',sans-serif;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+  }
+  
+  #nav-bar{
+      padding: 10px;
+      width: 100%;
+      overflow: auto;
+      float: top;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  
+  #nav-bar a{
+      display: inline;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+      border-left: 0;
+      }
+  
+  .title{
+    text-align: center;
+  }
+  
+  .act1,.act2,.act3{
+    text-align: center;
+  }
+  .pdtprice{
+    text-align: center;
+  }
+  
+  @media onscreen and (min-width: 480px){
+    main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    }
+  }

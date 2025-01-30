@@ -1,0 +1,181 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>
+          <h1>CSS Documentation Page</h1>
+        </header>
+        <a class="nav-link" href="#CSS_Introduction">CSS Introduction</a>
+        <a class="nav-link" href="#CSS_Units">CSS Units</a>
+        <a class="nav-link" href="#CSS_Links">CSS Links</a>
+        <a class="nav-link" href="#CSS_Pseudo_Elements">CSS Pseudo Elements</a>
+        <a class="nav-link" href="#CSS_Layout">CSS Layout</a>
+        <a class="nav-link" href="#CSS_Media_Queries">CSS Media Queries</a>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="CSS_Introduction">
+          <header>
+            <h1>CSS Introduction</h1>
+          </header>
+            <p>CSS is the language we use to style an HTML document.</p>
+            <p>CSS describes how HTML elements should be displayed.</p>
+            <p>CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+            <ul>
+              <li>list1</li>
+              <li>list2</li>
+              <li>list3</li>
+            </ul>
+      </section>
+      <section class="main-section" id="CSS_Units">
+          <header>
+            <h1>CSS Units</h1>
+          </header>
+            <p>CSS has several different units for expressing a length.</p>
+            <p>Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.</p>
+            <p>Length is a number followed by a length unit, such as 10px, 2em, etc.</p>
+            <p>Set different length values, using px (pixels):</p>
+            <code>h1 {
+  font-size: 60px;
+}<br>
+
+p {
+  font-size: 25px;
+  line-height: 50px;
+}
+            </code>
+      </section>
+      <section class="main-section" id="CSS_Links">
+          <header>
+            <h1>CSS Links</h1>
+          </header>
+            <p>With CSS, links can be styled in many different ways.</p>
+            <p>Links can be styled with any CSS property (e.g. color, font-family, background, etc.).</p>
+            <code>
+          a {
+  color: hotpink;
+}
+            </code>
+          <ul>
+            <li>list1</li>
+          </ul>
+      </section>
+      <section class="main-section" id="CSS_Pseudo_Elements">
+        <header>
+          <h1>CSS Pseudo Elements</h1>
+        </header>
+            <p>A CSS pseudo-element is used to style specific parts of an element.</p>
+            <p>The syntax of pseudo-elements:</p>
+            <code>
+          selector::pseudo-element {
+  property: value;
+}
+            </code>
+            <h4>The ::first-line Pseudo-element</h4>
+              <p>The ::first-line pseudo-element is used to add a special style to the first line of a text. Example:</p>
+            <code>
+          p::first-line {<br>
+          color: #ff0000;<br>
+          font-variant: small-caps;<br>
+          }
+            </code>
+            <ul>
+              <li>list1</li>
+              <li>list2</li>
+              <li>list3</li>
+            </ul>
+      </section>
+      <section class="main-section" id="CSS_Layout">
+        <header>
+          <h1>CSS Layout</h1>
+        </header>
+            <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+            <h4>position: static;</h4>
+            <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page. Example:</p>
+            <code>
+          div.static {<br>
+  position: static;<br>
+  border: 3px solid #73AD21;<br>
+}
+            </code>
+      </section>
+      <section class="main-section" id="CSS_Media_Queries">
+        <header>
+          <h1>CSS Media Queries</h1>
+        </header>
+            <p>The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.</p>
+
+            <p>Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.</p>
+            <p>Example:</p>
+            <code>
+          @media screen and (min-width: 480px) {<br>
+  body {<br>
+    background-color: lightgreen;<br>
+  }
+}
+            </code>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  font-family: sans-serif, lato;
+  margin: 0;
+}
+
+#navbar{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 100%;
+  overflow: auto;
+  float: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.main-section{
+  margin-left: 300px;
+  padding: 1px 1px 10px;
+  padding-left: 20px;
+  height: 100%;
+  min-width: 290px;
+  border-left: 1px solid black;
+}
+
+#navbar a{
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border-right: 0;
+  border-bottom: 1px solid black;
+}
+
+#navbar h1{
+  padding-bottom: 20px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 768px){
+  body{
+    background-color: blue;
+  }
+}
+
+** end of undefined **
+

@@ -1,0 +1,149 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies and Milk</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header" class="hero">
+          <nav id="nav-bar">
+            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#assorted-cookies">Assorted cookies</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </nav>
+    </header>
+    <main>
+      <section class="heading">
+        <header id="header">
+          <img src="https://www.allrecipes.com/thmb/t23d-TvzuurCM5H64VwgULUlh7c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4462051-448e9227c9f34204b2413fd7802a73d8.jpg" id="header-img" alt="cookies" width="300" loading="lazy">
+          </header>
+      </section>
+      <section class="content">
+        <h1 class="title">Homemade Cookies</h1>
+        <form id="form" method="get" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Subscribe to our weekly updates on all upcoming products!</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+          <input type="submit" id="submit" value="Submit">
+        </form>
+        <div class="about-us" id="about-us">
+          <h1 class="about-us title">About Us</h1>
+          <p>We make the best cookies in town!</p>
+          <p>You will enjoy every bite and come back for more! Guaranteed!</p><br>
+          <iframe id="video" width="400" height="200" src="https://www.youtube.com/embed/65-G4QzyGbU" title="No Copyright Cookies Baking In Oven Video | Royalty Free Stock Footage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="assorted-cookies" id="assorted-cookies">
+          <h1 class="assorted-cookies title">Assorted Cookies</h1>
+          <h3 class="act1">Snickerdoodles</h3>
+            <p>They can be crisp or soft, with a slightly cracked surface.</p>
+            <img src="https://www.allrecipes.com/thmb/Xv1kU5m0o0JLXMst7Kk46M0ys5Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4561384-3fd7e7fa52364dafb2a36db1891b2b86.jpg" alt="snickerdoodle cookies" width="200">
+            <h3 class="act2">Oatmeal Raisin Cookies</h3>
+            <p>They're warm and comforting — a reminder of simpler times and grandma's house.</p>
+            <img src="https://www.allrecipes.com/thmb/9M9YfQf0EcMdQ7XBTXrCsaeo9Yw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Beths-Spicy-Oatmeal-Raisin-Cookies-88688de1eba24eeba29f5e07e04f064d.jpg" alt="oatmeal raisin cookies" width="200">
+            <h3 class="act3">Gingersnaps</h3>
+            <p>Powdered ginger, cinnamon, molasses, and nutmeg make this popular holiday cookie the perfect blend of sweet and spicy.</p>
+            <img src="https://www.allrecipes.com/thmb/oREjP44_YMbn2ugZoUVMymLzGeA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/image-1-2000-4053b8c86e0e4cc38bccc62cae35b3a0.jpg" alt="gingersnaps cookies" width="200">
+        </div>
+      </section>
+      <section class="price">
+        <div class="pricing" id="pricing">
+          <h1 class="title">Pricing</h1>
+          <div class="pdtprice">
+            <h3>Snickerdoodles - 1pack - $15</h3>
+            <h3>Oatmeal Raisin - 1pack - $12</h3>
+            <h3>Gingersnaps - 1pack - $19</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*,::before,::after{
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, serif;
+  color: Black;
+  background-color: pink;
+}
+
+.nav-link{
+  font-family: Anton, sans-serif;
+  font-size: 20px;
+}
+a:hover{
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: 'Raleway',sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3rem;
+}
+
+#nav-bar{
+    padding: 10px;
+    width: 100%;
+    overflow: auto;
+    float: top;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+#nav-bar a{
+    display: inline;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    border-left: 0;
+    }
+
+.title{
+  text-align: center;
+}
+
+.act1,.act2,.act3{
+  text-align: center;
+}
+.pdtprice{
+  text-align: center;
+}
+
+@media onscreen and (min-width: 480px){
+  main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  }
+}
+
+** end of undefined **
+

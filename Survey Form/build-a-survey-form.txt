@@ -1,0 +1,98 @@
+** start of undefined **
+
+<!DOCType html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Page</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Page</h1>
+      <p id="description"> Please fill out this form with the required information. Thank you for your time.</p>
+      <form id="survey-form" action="https://register-demo.freecodecamp.org" method="POST">
+        <label for="name" id="name-label">Name: <input id="name" type="text" name="name" required placeholder="Enter your name"></label><br>
+        <label for="email" id="email-label">Email: <input id="email" type="email" name="email" required placeholder="Enter your email"></label><br>
+        <label for="number" id="number-label">Number: <input id="number" type="number" min="10" max="10" name="number" required placeholder="Enter your number"></label><br>
+        <legend>Overall Experience: </legend>
+          <label for="attribute"><input type="radio" id="attribute" name="attribute" value="Good" checked class="inline">Good</label>
+          <label for="attribute"><input type="radio" id="attribute" name="attribute" value="Bad" class="inline">Bad</label><br>
+        <label for="dropdown">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Internet</option>
+            <option value="2">Tech. Blog</option>
+            <option value="3">Word of mouth</option>
+            <option value="4">Other</option>
+          </select>
+        </label><br>
+        <label>What course would you like to see in the future?</label><br>
+        <label for="AI and ML"><input type="checkbox" name="AI and ML" value="AI and ML" class="inline">AI and ML</label><br>
+        <label for="Cloud Computing"><input type="checkbox" name="Cloud Computing" value="Cloud Computing" class="inline">Cloud Computing</label><br>
+        <label for="Data Science"><input type="checkbox" name="Data Science" value="Data Science" class="inline">Data Science</label><br>
+        <label for="Networking"><input type="checkbox" name="Networking" value="Networking" class="inline">Networking</label><br>
+        <label for="comments">Any comments or suggestions?
+          <textarea id="comments" name="comments" row="3" col="30" placeholder="Enter your comments here...."></textarea>
+        </label><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #a1ccad;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1,p{
+  text-align: center;
+  margin: 1em auto;
+}
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+input,textarea,select {
+    margin: 2px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+input, textarea {
+    background-color: white;
+    border: 1px solid #0a0a23;
+    color: black;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #64f581;
+    border-color: black;
+    min-width: 300px;
+  }
+
+
+** end of undefined **
+

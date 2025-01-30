@@ -1,0 +1,7 @@
+>Date: 09/01/2025
+# Description - Cat Photo App: 
+
+## This is the first project I created using HTML as a part of the freeCodeCamp - Responsive Web Design Certification course.
+## Used HTML tags such as h1, section, ul(unordered lists), img, legend, label, input and more.
+## This HTML page uses images of cute cats and also links to other pages and images.
+## This page also utilizes an HTML form to collect user data.

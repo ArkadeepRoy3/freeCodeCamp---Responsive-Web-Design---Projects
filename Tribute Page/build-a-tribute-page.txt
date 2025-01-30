@@ -1,0 +1,102 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Dame Maggie Smith</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <div id="heading">
+        <h2>Maggie Smith</h2>
+      </div>
+      <div id="img-div">
+        <img id="image" src="https://cloudfront-us-east-1.images.arcpublishing.com/opb/33JLNC2C2NLX3KDI344NATOW6M.jpg" alt="An image of Maggie Smith" width="600" height="300">
+        <div id="img-caption">
+        <p>Dame Maggie Smith - a.k.a Professor Minerva McGonagall - Hogwarts School of Witchcraft and Wizardry</p>
+        </div>
+      </div>
+      <div id="tribute-info">
+        <p>A tribute to Dame Maggie Smith, best known for her roles in the "Harry Potter" series, "Downton Abbey," and numerous acclaimed stage productions</p>
+      </div>
+      <div id="Timeline">
+        <h2>A History Timeline About Maggie Smith</h2>
+        <div class="container">
+          <ul class="UL">
+            <li>1934 - Birth<br>
+Dame Margaret Natalie Smith, known professionally as Maggie Smith, was born in Ilford, Essex, England.</li><br>
+            <li>1952 - Acting Debut<br>Maggie Smith made her acting debut on the stage in Oxford, England.
+            </li><br>
+            <li>1969 - Film Debut<br>
+            Maggie Smith made her film debut in "The Prime of Miss Jean Brodie", a role that earned her an Academy Award for Best Actress.</li><br>
+            <li>2001 - Harry Potter Series<br>Maggie Smith became a household name for her role as Professor Minerva McGonagall in the Harry Potter film series.</li><br>
+            <li>2002 - Knighthood<br>Maggie Smith was appointed a Dame Commander of the Order of the British Empire (DBE) in the 2002 New Year Honours List.</li><br>
+          </ul>
+        </div>
+        <div id="tribute">
+          <h2>If you have time, you should read more about this incredible human being on her <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Maggie_Smith">Wikipedia entry.</a></h2>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: white;
+  font-family: monospace,sans-serif;
+}
+
+#img-div{
+  background: white;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#heading{
+  text-align: center;
+  font-family: monospace, sans-serif;
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffeefd;
+}
+
+#img-caption{
+  text-align: center;
+  width: 100%;
+}
+
+#tribute-info{
+  text-align: center;
+  width: 100%;
+}
+
+#Timeline>h2{
+  text-align: center;
+}
+
+div.container{
+  text-align: center;
+}
+
+ul.UL{
+  display: inline-block;
+  text-align: left;
+}
+
+** end of undefined **
+
